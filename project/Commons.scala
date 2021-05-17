@@ -8,7 +8,7 @@ object Commons {
 
   def projectSettings(project: String) = Seq(
     // scala version
-    scalaVersion := "2.13.0",
+    scalaVersion := "2.13.6",
     // append -deprecation to the options passed to the Scala compiler
     scalacOptions += "-deprecation",
     // append -feature to the options passed to the Scala compiler
